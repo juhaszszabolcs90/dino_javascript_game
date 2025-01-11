@@ -52,8 +52,8 @@ document.addEventListener('keydown', (event) => {
     }
     if ((event.code === 'Space') && (!dino.classList.contains('jump-animation'))) {
         jump();
-        // console.log("Game started!");
-        // debugger;
+        console.log("Game started!");
+        debugger;
 
     }
 
