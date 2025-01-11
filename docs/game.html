@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Game</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}"> -->
+    <link rel="stylesheet" href="static/css/game.css" />
+</head>
+<body id="game_page">
+<div id="root">
+    <div id="container">
+        <div id="game">
+            <div id="moon"></div>
+            <div id="stars"></div>
+            <div id="trees_far"></div>
+            <div id="trees_close"></div>
+            <div id="grass"></div>
+            <div id="ground"></div>
+            <div id="dino"></div>
+            <div id="rock"></div>
+
+        </div>
+        <div id="meat"></div>
+        <div id = 'hud'>    <!--heads_up_display-->
+            <div id="score_text">Score:</div>
+            <div id="score">0</div>
+        </div>
+        <div id = 'hud2'>    <!--heads_up_display-->
+            <div id="life_text">Life:</div>
+            <div id="life"></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/docs/static/js/game.js"></script>
+</body>
+</html>
