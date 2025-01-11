@@ -11,6 +11,7 @@ function inputName() {
     // Eseményfigyelő az input mezőhöz
     inputField?.addEventListener('input', () => {
         const userName = inputField.value.trim();
+        // Ha legalább 5 karakter hosszú a név, akkor aktiváljuk a gombot
         if (userName.length >= 5) {
             btnDiv.classList.remove('inactive'); // Gomb aktív
             startButton.disabled = false; // Gomb használható
@@ -23,6 +24,7 @@ function inputName() {
     // Start gomb kattintás eseménye
     startButton?.addEventListener('click', () => {
         const userName = inputField.value.trim();
+        // Ha legalább 5 karakter hosszú a név, akkor mentjük el a localStorage-ban
         if (userName.length >= 5) {
             localStorage.setItem('username', userName); // Felhasználónév mentése
             window.location.href = './game.html'; // Átirányítás a játék oldalára
