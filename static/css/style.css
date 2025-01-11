@@ -1,0 +1,94 @@
+/* Alap CSS az oldalhoz */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+#index {
+    background: hsl(520, 70%, 30%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+}
+
+/* .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+} */
+
+.title {
+text-align: center;
+font-family: 'Silkscreen', cursive;
+font-weight: 800;
+font-size: calc(20vw / var(--word-total) );
+line-height: 1.0;
+letter-spacing: -0.03em;
+transform: perspective(300px) scaleY(1.5) rotateX(-40deg);
+transform-style: preserve-3d;
+--layer-depth: 0.32em;
+}
+
+/* eredeti */
+#name {
+font-family: 'Silkscreen', cursive;
+font-size: 34px;
+text-align: center;
+}
+
+#name {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#start_game {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: hsl(360, 97%, 30%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start_game:hover {
+    background-color: hsl(360, 97%, 40%);
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Animáció és láthatóság */
+#inputDiv, #btnDiv, #pDiv {
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.inactive {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#inputDiv:not(.inactive),
+#btnDiv:not(.inactive),
+#pDiv:not(.inactive) {
+    opacity: 1;
+    visibility: visible;
+}
