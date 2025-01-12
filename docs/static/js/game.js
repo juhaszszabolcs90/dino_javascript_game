@@ -3,6 +3,7 @@ const rock = document.getElementById("rock");
 const meat = document.getElementById("meat");
 const score = document.getElementById("score");
 const life = document.getElementById("life");
+
 let is_jump = false
 let food = 1
 window.hit = true
