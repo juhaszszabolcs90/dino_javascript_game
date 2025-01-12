@@ -1,5 +1,6 @@
 /*GAME STYLE*/
 #game_page { background: hsla(306, 38%, 70%, 1);
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
