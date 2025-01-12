@@ -173,7 +173,7 @@
     top: 1rem;
     position: absolute;
     background-size: cover;
-    background-image: url("docs/static/images/bacgound_layers/trees_far.png");
+    background-image: url("static/images/bacgound_layers/trees_far.png");
     background-repeat: repeat-x;
     animation: far linear 9000s, infinite;
   }
@@ -185,7 +185,7 @@
     width: 100%;
     position: absolute;
     background-size: cover;
-    background-image: url("docs/static/images/bacgound_layers/trees_close.png");
+    background-image: url("static/images/bacgound_layers/trees_close.png");
     background-repeat: repeat-x;
     animation: tree linear 9000s, infinite;
   }
@@ -209,7 +209,7 @@
     position: absolute;
     top: 3rem;
     background-size: cover;
-    background-image: url("docs/static/images/bacgound_layers/ground.png");
+    background-image: url("static/images/bacgound_layers/ground.png");
     animation: close linear 9000s, infinite;
   }
   
