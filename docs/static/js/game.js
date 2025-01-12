@@ -62,7 +62,7 @@ document.addEventListener('keydown', (event) => {
 
 
 setInterval(() => {
-    life.innerText = food
+    life.innerText = '❤️'.repeat(food);
     const rockLeft = parseInt(window.getComputedStyle(rock)
         .getPropertyValue('left'));
     const meatLeft = parseInt(window.getComputedStyle(meat)
@@ -98,8 +98,8 @@ setInterval(() => {
     // if (t === true) {console.log(window.hit)}
     if (t && window.hit) {
         window.hit = false
-        food -= 3;
-        life.innerText = food
+        food -= 1;
+        life.innerText = '❤️'.repeat(food);
         if (food <= 0) {
             const userscore = score.innerText;
             let params = new URLSearchParams(document.location.search);
@@ -115,6 +115,11 @@ setInterval(() => {
             window.location.href = "/scores/" + username;
             // alert("You got a score of: " + score.innerText + "\n\nPlay again?");
             // location.reload();
+        } else {
+            setTimeout(() => {
+                rock.style.display = '';
+                randomSeed2 = Math.floor(Math.random() * 4000);
+            }, randomSeed2);
         }
     }
 
@@ -131,7 +136,7 @@ setInterval(() => {
         window.hungry = false
         meat.style.display = 'none';
         food += 1;
-        life.innerText = food
+        life.innerText = '❤️'.repeat(food);
         setTimeout(() => {
             meat.style.display = 'flex';
             randomSeed = Math.floor(Math.random() * 20000);
