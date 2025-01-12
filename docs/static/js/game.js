@@ -161,29 +161,29 @@ setInterval(() => {
     }, 500);
 
 const sprites = [
-    "static/images/freedinosprite/png/Run(2).png",
-    "static/images/freedinosprite/png/Run(1).png",
-    "static/images/freedinosprite/png/Run(3).png",
-    "static/images/freedinosprite/png/Run(4).png",
-    "static/images/freedinosprite/png/Run(5).png",
-    "static/images/freedinosprite/png/Run(6).png",
-    "static/images/freedinosprite/png/Run(7).png",
-    "static/images/freedinosprite/png/Run(8).png"
+    "/docs/static/images/freedinosprite/png/Run(2).png",
+    "/docs/static/images/freedinosprite/png/Run(1).png",
+    "/docs/static/images/freedinosprite/png/Run(3).png",
+    "/docs/static/images/freedinosprite/png/Run(4).png",
+    "/docs/static/images/freedinosprite/png/Run(5).png",
+    "/docs/static/images/freedinosprite/png/Run(6).png",
+    "/docs/static/images/freedinosprite/png/Run(7).png",
+    "/docs/static/images/freedinosprite/png/Run(8).png"
 ];
 
 const jumpSprites = [
-    "static/images/freedinosprite/png/Jump (1).png",
-    "static/images/freedinosprite/png/Jump (2).png",
-    "static/images/freedinosprite/png/Jump (3).png",
-    "static/images/freedinosprite/png/Jump (4).png",
-    "static/images/freedinosprite/png/Jump (5).png",
-    "static/images/freedinosprite/png/Jump (6).png",
-    "static/images/freedinosprite/png/Jump (7).png",
-    "static/images/freedinosprite/png/Jump (8).png",
-    "static/images/freedinosprite/png/Jump (9).png",
-    "static/images/freedinosprite/png/Jump (10).png",
-    "static/images/freedinosprite/png/Jump (11).png",
-    "static/images/freedinosprite/png/Jump (12).png"
+    "/docs/static/images/freedinosprite/png/Jump (1).png",
+    "/docs/static/images/freedinosprite/png/Jump (2).png",
+    "/docs/static/images/freedinosprite/png/Jump (3).png",
+    "/docs/static/images/freedinosprite/png/Jump (4).png",
+    "/docs/static/images/freedinosprite/png/Jump (5).png",
+    "/docs/static/images/freedinosprite/png/Jump (6).png",
+    "/docs/static/images/freedinosprite/png/Jump (7).png",
+    "/docs/static/images/freedinosprite/png/Jump (8).png",
+    "/docs/static/images/freedinosprite/png/Jump (9).png",
+    "/docs/static/images/freedinosprite/png/Jump (10).png",
+    "/docs/static/images/freedinosprite/png/Jump (11).png",
+    "/docs/static/images/freedinosprite/png/Jump (12).png"
 ]
 
 

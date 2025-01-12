@@ -65,7 +65,7 @@
     left: 50px;
     top: 620px;
     position: relative;
-    background-image: url("static/images/freedinosprite/png/Run(1).png");
+    background-image: url("/docs/static/images/freedinosprite/png/Run(1).png");
     background-size: cover;
   }
   
@@ -76,7 +76,7 @@
     position: relative;
     top: 310px;
     left: 2000px;
-    background-image: url("static/images/rock.png");
+    background-image: url("/docs/static/images/rock.png");
     background-size: cover;
     animation: rock 2s linear;
   }
@@ -89,7 +89,7 @@
     top: 500px;
     left: 1850px;
     display: flex;
-    background-image: url("static/images/Pork-Steak-clipart-transparent.png");
+    background-image: url("/docs/static/images/Pork-Steak-clipart-transparent.png");
     background-size: cover;
     animation: meat 2.0s linear;
   }
@@ -152,7 +152,7 @@
     width: 100%;
     background-size: cover;
     position: absolute;
-    background-image: url("static/images/bacgound_layers/moon.png");
+    background-image: url("/docs/static/images/bacgound_layers/moon.png");
   }
   
   #stars {
@@ -163,7 +163,7 @@
     width: 100%;
     background-size: cover;
     position: absolute;
-    background-image: url("static/images/bacgound_layers/stars.png");
+    background-image: url("/docs/static/images/bacgound_layers/stars.png");
   }
   
   #trees_far {
@@ -173,7 +173,7 @@
     top: 1rem;
     position: absolute;
     background-size: cover;
-    background-image: url("static/images/bacgound_layers/trees_far.png");
+    background-image: url("/docs/static/images/bacgound_layers/trees_far.png");
     background-repeat: repeat-x;
     animation: far linear 9000s, infinite;
   }
@@ -185,31 +185,31 @@
     width: 100%;
     position: absolute;
     background-size: cover;
-    background-image: url("static/images/bacgound_layers/trees_close.png");
+    background-image: url("/docs/static/images/bacgound_layers/trees_close.png");
     background-repeat: repeat-x;
     animation: tree linear 9000s, infinite;
   }
   
   
   #grass {
-    z-index: 6;
+    z-index: 5;
     height: 100vh;
     width: 100%;
     position: absolute;
     bottom: 15rem;
     background-size: auto;
-    background-image: url("static/images/bacgound_layers/grass.png");
+    background-image: url("/docs/static/images/bacgound_layers/grass.png");
     animation: grass linear 9000s, infinite;
   }
   
   #ground {
-    z-index: 5;
+    z-index: 6;
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 3rem;
     background-size: cover;
-    background-image: url("static/images/bacgound_layers/ground.png");
+    background-image: url("/docs/static/images/bacgound_layers/ground.png");
     animation: close linear 9000s, infinite;
   }
   
